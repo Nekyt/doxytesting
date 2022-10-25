@@ -26,7 +26,7 @@ InitSfml::InitSfml(int widthWindow, int heightWindow, const std::string& nameWin
  *
  * @return The event.
  */
-sf::Event& InitSfml::getEvent()
+                            sf::Event& InitSfml::getEvent()
 {
     return _event;
 }
